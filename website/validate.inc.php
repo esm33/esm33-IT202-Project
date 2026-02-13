@@ -1,4 +1,11 @@
 <?php
+
+// Name: Emily Morales Medina
+// Date: 2/13/2026
+// Course: IT202-006
+// Assignment Name: Skincare Inventory PHASE 01
+// email: esm33@njit.edu
+
 error_log('$_POST ' . print_r($_POST, true)); //prints values in a array
 //post info is specifically for forms, it sends data to the server in a way that is not visible in the url
 //validates responsibility to grab two values from the login form and check them against the database

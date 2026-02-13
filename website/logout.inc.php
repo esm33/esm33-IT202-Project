@@ -1,6 +1,11 @@
-
-
 <?php
+
+// Name: Emily Morales Medina
+// Date: 2/13/2026
+// Course: IT202-006
+// Assignment Name: Skincare Inventory PHASE 01
+// email: esm33@njit.edu
+
 if (isset($_SESSION['login'])) {
     unset($_SESSION['login']);
     unset($_SESSION['first_name']);
