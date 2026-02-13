@@ -1,8 +1,8 @@
--- Name: Emily
--- UCID: esm33
--- Course: IT202
--- Date: February 12, 2026
-
+-- Name: Emily Morales Medina
+-- Date: 2/13/2026
+-- Course: IT202-006
+-- Assignment Name: Skincare Inventory PHASE 01
+-- email: esm33@njit.edu
 
 --CREATE database + users
 CREATE DATABASE skincare;
