@@ -25,6 +25,6 @@ function getDB($echo_mode = false)
 }
 
 //test the connection by entering in the browser: http://localhost:3000/database.php
-//or in the terminal: php -S localhost:3000 -t inventory and then going to http://localhost:3000/database.php
+//or in the terminal: php -S localhost:3000 -t website and then going to http://localhost:3000/database.php
 
 ?>

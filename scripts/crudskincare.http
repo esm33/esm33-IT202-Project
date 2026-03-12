@@ -1,0 +1,239 @@
+// Name: Emily Morales Medina
+// Date: 3/11/2026
+// Course: IT202-006
+// Assignment Name: Skincare Inventory PHASE 02
+// email: esm33@njit.edu
+
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=3
+&skincareName=Supergoop! Unsceen
+&skincareCode=SUN
+&skincareDescription=Velvet Matte Sunscreen SPF 45
+&skincareBrand=Supergoop
+&skincareDosage=DosageInfo
+&skincaretypeID=3
+&skincareBuyingPrice=15.00
+&skincareSellingPrice=25.00
+###
+GET http://localhost:3000/listskincare.test.php
+
+###
+POST http://localhost:3000/changeskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=3
+&skincareCode=SUN
+&skincareName=Supergoop! Unseen Sunscreen
+&skincareDescription=Velvet Matte Sunscreen SPF 45
+&skincareBrand=Supergoop
+&skincareDosage=DosageInfo
+&skincaretypeID=3
+&skincareBuyingPrice=15.00
+&skincareSellingPrice=25.00
+
+###
+POST http://localhost:3000/removeskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=3
+
+
+######################################################
+
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=1
+&skincareCode=MOIS1
+&skincareName=CeraVe Moisturizing Cream
+&skincareDescription=A lightweight moisturizer that provides long-lasting hydration for all skin types.
+&skincareBrand=CeraVe
+&skincareDosage=Cream
+&skincaretypeID=1
+&skincareBuyingPrice=1.00
+&skincareSellingPrice=5.00
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=2
+&skincareCode=SERN1
+&skincareName=The Ordinary Niacinamide 10% + Zinc 1%
+&skincareDescription=A serum that helps reduce the appearance of blemishes and congestion.
+&skincareBrand=The Ordinary
+&skincareDosage=Serum
+&skincaretypeID=2
+&skincareBuyingPrice=2.00
+&skincareSellingPrice=10.00
+
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=3
+&skincareCode=MOIS1
+&skincareName=Neutrogena Hydro Boost Water Gel
+&skincareDescription=A lightweight gel moisturizer that absorbs quickly and leaves the skin feeling smooth and refreshed. It contains hyaluronic acid to support hydration without feeling heavy.
+&skincareBrand=Neutrogena
+&skincareDosage=Gel
+&skincaretypeID=1
+&skincareBuyingPrice=11.25
+&skincareSellingPrice=15.49
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=4
+&skincareCode=MOIS2
+&skincareName=La Roche-Posay Toleriane Double Repair Face Moisturizer
+&skincareDescription=This daily moisturizer is made to hydrate sensitive skin while helping repair the moisture barrier. Its formula feels gentle on the skin and is suitable for everyday use.
+&skincareBrand=La Roche-Posay
+&skincareDosage=Lotion
+&skincaretypeID=1
+&skincareBuyingPrice=14.75
+&skincareSellingPrice=19.99
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=5
+&skincareCode=MOIS3
+&skincareName=Vanicream Daily Facial Moisturizer
+&skincareDescription=A simple moisturizer created for sensitive skin and daily hydration. It is free of many common irritants and helps support a soft and balanced skin feel.
+&skincareBrand=Vanicream
+&skincareDosage=Cream
+&skincaretypeID=1
+&skincareBuyingPrice=10.00
+&skincareSellingPrice=13.95
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=6
+&skincareCode=MOIS4
+&skincareName=First Aid Beauty Ultra Repair Cream
+&skincareDescription=This moisturizer helps calm dry and uncomfortable skin with a rich and soothing formula. It is often used for intense hydration and works well in colder weather.
+&skincareBrand=First Aid Beauty
+&skincareDosage=Cream
+&skincaretypeID=1
+&skincareBuyingPrice=18.40
+&skincareSellingPrice=24.50
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=7
+&skincareCode=SERN1
+&skincareName=Good Molecules Hyaluronic Acid Serum
+&skincareDescription=This hydrating serum helps attract moisture to the skin and gives it a smoother appearance. It works especially well when applied before moisturizer on damp skin.
+&skincareBrand=Good Molecules
+&skincareDosage=Serum
+&skincaretypeID=2
+&skincareBuyingPrice=5.95
+&skincareSellingPrice=8.75
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=8
+&skincareCode=SERN2
+&skincareName=La Roche-Posay Pure Vitamin C10 Serum
+&skincareDescription=This brightening serum is designed to improve skin radiance and support a more even-looking complexion. It can also help reduce the look of dullness over time.
+&skincareBrand=La Roche-Posay
+&skincareDosage=Serum
+&skincaretypeID=2
+&skincareBuyingPrice=22.30
+&skincareSellingPrice=29.99
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=9
+&skincareCode=SERN3
+&skincareName=The Inkey List Retinol Serum
+&skincareDescription=This serum is used at night to support smoother-looking skin and improve the appearance of fine lines. It should be introduced gradually to help skin adjust to retinol.
+&skincareBrand=The Inkey List
+&skincareDosage=Serum
+&skincaretypeID=2
+&skincareBuyingPrice=9.40
+&skincareSellingPrice=13.60
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=10
+&skincareCode=SERN4
+&skincareName=Vichy Minéral 89 Hydrating Serum
+&skincareDescription=This serum is made to strengthen hydration and leave the skin feeling plump and refreshed. Its gel-like texture feels light and layers easily with other skincare products.
+&skincareBrand=Vichy
+&skincareDosage=Serum
+&skincaretypeID=2
+&skincareBuyingPrice=19.85
+&skincareSellingPrice=26.40
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=11
+&skincareCode=SUNS1
+&skincareName=Black Girl Sunscreen SPF 30
+&skincareDescription=This sunscreen is known for leaving little to no white cast and giving the skin a moisturized finish. It is made for daily use and works well on a range of skin tones.
+&skincareBrand=Black Girl Sunscreen
+&skincareDosage=Lotion
+&skincaretypeID=3
+&skincareBuyingPrice=13.10
+&skincareSellingPrice=18.25
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=12
+&skincareCode=SUNS2
+&skincareName=EltaMD UV Clear Broad-Spectrum SPF 46
+&skincareDescription=This sunscreen is popular for acne-prone and sensitive skin because of its lightweight and calming formula. It provides daily sun protection without feeling overly greasy.
+&skincareBrand=EltaMD
+&skincareDosage=Lotion
+&skincaretypeID=3
+&skincareBuyingPrice=28.50
+&skincareSellingPrice=36.99
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=13
+&skincareCode=SUNS3
+&skincareName=La Roche-Posay Anthelios Melt-In Milk Sunscreen SPF 60
+&skincareDescription=This sunscreen offers broad-spectrum protection with a creamy texture that spreads easily on the skin. It is made for face and body use and is suitable for outdoor wear.
+&skincareBrand=La Roche-Posay
+&skincareDosage=Cream
+&skincaretypeID=3
+&skincareBuyingPrice=21.75
+&skincareSellingPrice=29.50
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=14
+&skincareCode=SUNS4
+&skincareName=Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 55
+&skincareDescription=This sunscreen is designed to feel lightweight while still providing strong UV protection. Its dry-touch finish makes it useful for people who prefer a less shiny look.
+&skincareBrand=Neutrogena
+&skincareDosage=Lotion
+&skincaretypeID=3
+&skincareBuyingPrice=9.95
+&skincareSellingPrice=14.20
+
+###
+POST http://localhost:3000/addskincare.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareID=15
+&skincareCode=SUNS5
+&skincareName=Biore UV Aqua Rich Watery Essence SPF 50+
+&skincareDescription=This sunscreen has a lightweight watery texture that absorbs quickly into the skin. It provides strong sun protection while feeling breathable and comfortable for daily wear.
+&skincareBrand=Biore
+&skincareDosage=Essence
+&skincaretypeID=3
+&skincareBuyingPrice=10.50
+&skincareSellingPrice=16.75

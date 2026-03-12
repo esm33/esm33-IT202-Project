@@ -1,0 +1,61 @@
+// Name: Emily Morales Medina
+// Date: 3/11/2026
+// Course: IT202-006
+// Assignment Name: Skincare Inventory PHASE 02
+// email: esm33@njit.edu
+
+POST http://localhost:3000/addskincaretype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareTypeID=4
+&skincareTypeCode=SKT
+&skincareTypeName=SkinType
+&skincareShelfNumber=4
+###
+GET http://localhost:3000/listskincaretypes.test.php
+
+###
+POST http://localhost:3000/changeskincaretype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareTypeID=4
+&skincareTypeCode=ST
+&skincareTypeName=SkinType
+&skincareShelfNumber=4
+###
+POST http://localhost:3000/removeskincaretype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareTypeID=4
+
+
+
+
+
+
+
+####################################
+POST http://localhost:3000/addskincaretype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareTypeID=1
+&skincareTypeCode=MOIS
+&skincareTypeName=Moisturizer
+&skincareShelfNumber=1
+###
+POST http://localhost:3000/addskincaretype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareTypeID=2
+&skincareTypeCode=SERN
+&skincareTypeName=Serum
+&skincareShelfNumber=2
+###
+POST http://localhost:3000/addskincaretype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+skincareTypeID=3
+&skincareTypeCode=SUNS
+&skincareTypeName=Sunscreen
+&skincareShelfNumber=3
+###
