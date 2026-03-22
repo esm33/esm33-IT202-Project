@@ -1,8 +1,8 @@
 <?php
 // Name: Emily Morales Medina
-// Date: 2/13/2026
+// Date: 3/20/2026
 // Course: IT202-006
-// Assignment Name: Skincare Inventory PHASE 01
+// Assignment Name: Skincare Inventory PHASE 03
 // email: esm33@njit.edu
 
 session_start();
@@ -14,8 +14,15 @@ session_start();
     <title>Skincare</title>
 </head>
 
+
 <body>
-    <section>
+    <header>
+        <?php include("header.inc.php"); ?>
+    </header>
+    <section style="min-height: 425px;">
+        <nav>
+            <?php include("nav.inc.php"); ?>
+        </nav>
         <main>
             <?php
             if (isset($_REQUEST['content'])) {
@@ -26,6 +33,12 @@ session_start();
             ?>
         </main>
     </section>
+    <footer>
+        <?php include("footer.inc.php"); ?>
+    </footer>
 </body>
+
+
+
 
 </html>

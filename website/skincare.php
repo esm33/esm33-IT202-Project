@@ -67,8 +67,9 @@ class skincare
    function __toString()
    {
        $output = "<h2>Skincare Product : $this->skincareID</h2>" .
-           "<h2>Name: $this->skincareName</h2>\n";
-       "<h2>SkincareType ID: $this->skincaretypeID at $this->skincareBuyingPrice</h2>\n";
+                 "<h2>Name: $this->skincareName</h2>\n".
+                 "<h2>SkincareType ID: $this->skincaretypeID</h2>\n".
+                 "<h2>Buying Price: $this->skincareBuyingPrice</h2>\n";
        return $output;
    }
    function saveSkincare()
@@ -98,6 +99,35 @@ class skincare
    {
        $db = getDB();
        $query = "SELECT * FROM skincare";
+       $result = $db->query($query);
+       if (mysqli_num_rows($result) > 0) {
+           $skincare_products = array();
+           while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+               $skincare = new skincare(
+                   $row['skincare_id'],
+                   $row['skincare_code'],
+                   $row['skincare_name'],
+                   $row['skincare_description'],
+                   $row['skincare_brand'],
+                   $row['skincare_dosage_form'],
+                   $row['skincare_type_id'],
+                   $row['skincare_buy_price'],
+                   $row['skincare_sell_price']
+               );
+               array_push($skincare_products, $skincare);
+           }
+           $db->close();
+           return $skincare_products;
+       } else {
+           $db->close();
+           return NULL;
+       }
+   }
+
+     static function getSkincareByType($skincareTypeID)
+   {
+       $db = getDB();
+       $query = "SELECT * FROM skincare WHERE skincare_type_id = $skincareTypeID";
        $result = $db->query($query);
        if (mysqli_num_rows($result) > 0) {
            $skincare_products = array();
@@ -167,4 +197,12 @@ class skincare
 
 
 }
+
+
+
+
+
+
+
+
 ?>
