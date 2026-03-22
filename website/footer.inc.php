@@ -9,3 +9,12 @@
 
 <p>Application version number: 1.0.0</p>
 <p>Contact us at <a href="mailto:esm33@njit.edu">esm33@njit.edu</a></p>
+
+<!--
+// Name: Emily Morales Medina
+// Date: 3/22/2026
+// Course: IT202-006
+// Assignment Name: Skincare Inventory PHASE 03
+// email: esm33@njit.edu
+
+-->

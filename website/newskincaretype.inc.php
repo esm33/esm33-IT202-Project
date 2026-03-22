@@ -1,3 +1,11 @@
+<!--
+// Name: Emily Morales Medina
+// Date: 3/22/2026
+// Course: IT202-006
+// Assignment Name: Skincare Inventory PHASE 03
+// email: esm33@njit.edu
+-->
+
 <h2>Enter New Skincare Type Information</h2>
 <form name="newskincaretype" action="index.php" method="post">
     <table cellpadding="1" border="0">

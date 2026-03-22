@@ -1,4 +1,12 @@
   <?php
+
+// Name: Emily Morales Medina
+// Date: 3/22/2026
+// Course: IT202-006
+// Assignment Name: Skincare Inventory PHASE 03
+// email: esm33@njit.edu
+
+
     if (isset($_SESSION['login'])) {
     ?>
       <div class="navigation" style="float: left; height: 100%; min-width: 175px; width: auto;">
